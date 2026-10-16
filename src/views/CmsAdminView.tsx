@@ -17,11 +17,6 @@ import {
   Share2, 
   AlertTriangle
 } from 'lucide-react';
-import { 
-  heroSocialResearch, 
-  elderlyCareConsultation, 
-  demographySociologyLibrary 
-} from '../assets/images';
 
 export const CmsAdminView: React.FC = () => {
   const { 
@@ -49,7 +44,7 @@ export const CmsAdminView: React.FC = () => {
   const [formContent, setFormContent] = useState('');
   const [formTags, setFormTags] = useState('');
   const [formCitations, setFormCitations] = useState('');
-  const [formImage, setFormImage] = useState(heroSocialResearch);
+  const [formImage, setFormImage] = useState('/src/assets/images/hero_social_research_1792094339503.jpg');
 
   // Profile Form State
   const [profileName, setProfileName] = useState(authorProfile.name);
@@ -74,7 +69,7 @@ export const CmsAdminView: React.FC = () => {
     setFormContent('');
     setFormTags('');
     setFormCitations('');
-    setFormImage(heroSocialResearch);
+    setFormImage('/src/assets/images/hero_social_research_1792094339503.jpg');
   };
 
   const handleEditClick = (art: Article) => {
@@ -314,9 +309,9 @@ export const CmsAdminView: React.FC = () => {
                     onChange={(e) => setFormImage(e.target.value)}
                     className="w-full bg-stone-50 border border-stone-300 rounded p-2.5 text-stone-900 focus:bg-white focus:outline-none"
                   >
-                    <option value={heroSocialResearch}>المكتبة والكتب والتشريع (الرئيسية)</option>
-                    <option value={demographySociologyLibrary}>الإحصاءات والتحليل الديموغرافي</option>
-                    <option value={elderlyCareConsultation}>المقابلة والرعاية الميدانية للمسنين</option>
+                    <option value="/src/assets/images/hero_social_research_1792094339503.jpg">المكتبة والكتب والتشريع (الرئيسية)</option>
+                    <option value="/src/assets/images/demography_sociology_library_1792094340665.jpg">الإحصاءات والتحليل الديموغرافي</option>
+                    <option value="/src/assets/images/elderly_care_consultation_1792094339861.jpg">المقابلة والرعاية الميدانية للمسنين</option>
                   </select>
                 </div>
               </div>

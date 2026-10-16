@@ -14,7 +14,6 @@ import {
   Phone,
   FileText
 } from 'lucide-react';
-import { demographySociologyLibrary } from '../assets/images';
 
 export const AuthorProfileView: React.FC = () => {
   const { authorProfile, articles, navigateToArticle, showToast } = useApp();
@@ -46,7 +45,7 @@ export const AuthorProfileView: React.FC = () => {
           <div className="lg:col-span-4 flex flex-col items-center text-center space-y-4">
             <div className="w-36 h-36 sm:w-44 sm:h-44 rounded-full bg-stone-100 border-2 border-stone-300 overflow-hidden flex items-center justify-center shadow-sm">
               <img
-                src={demographySociologyLibrary}
+                src="/src/assets/images/demography_sociology_library_1792094340665.jpg"
                 alt={authorProfile.name}
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"

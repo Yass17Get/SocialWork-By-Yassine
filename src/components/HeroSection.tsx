@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { useApp } from '../context/AppContext';
 import { Search, BookOpen, Layers, ArrowLeft, PhoneCall, ShieldCheck } from 'lucide-react';
-import { heroSocialResearch } from '../assets/images';
 
 export const HeroSection: React.FC = () => {
   const { setCurrentPage, setGlobalSearch } = useApp();
@@ -134,7 +133,7 @@ export const HeroSection: React.FC = () => {
           <div className="lg:col-span-5 flex flex-col justify-center">
             <div className="relative rounded-xl overflow-hidden border border-stone-300 shadow-sm bg-stone-200">
               <img
-                src={heroSocialResearch}
+                src="/src/assets/images/hero_social_research_1792094339503.jpg"
                 alt="المكتبة البحثية والدليل المرجعي للأخصائي الاجتماعي في تونس"
                 className="w-full h-72 sm:h-80 lg:h-full object-cover min-h-[340px]"
                 referrerPolicy="no-referrer"

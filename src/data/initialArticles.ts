@@ -1,9 +1,4 @@
 import { Article } from '../types';
-import { 
-  heroSocialResearch, 
-  elderlyCareConsultation, 
-  demographySociologyLibrary 
-} from '../assets/images';
 
 export const initialArticles: Article[] = [
   {
@@ -16,7 +11,7 @@ export const initialArticles: Article[] = [
     readTime: '9 دقائق قراءة',
     excerpt: 'دراسة ديموغرافية معمقة تتناول تسارع الشيخوخة السكانية في المجتمع التونسي، وتأثيراتها البنيوية على التضامن بين الأجيال ومؤسسات الرعاية الرعائية والحكومية.',
     tags: ['الشيخوخة السكانية', 'الديموغرافيا التونسية', 'رعاية كبار السن', 'المؤسسات الرعائية', 'التضامن الأسري'],
-    featuredImage: demographySociologyLibrary,
+    featuredImage: '/src/assets/images/demography_sociology_library_1792094340665.jpg',
     citations: [
       'المعهد الوطني للإحصاء (INS)، الإسقاطات السكانية في أفق 2030-2050، تونس.',
       'القانون عدد 114 لسنة 1994 المؤرخ في 31 أكتوبر 1994 المتعلق بحماية المسنين.',
@@ -66,7 +61,7 @@ export const initialArticles: Article[] = [
     readTime: '7 دقائق قراءة',
     excerpt: 'قراءة في تحول هوية الخدمة الاجتماعية في تونس من نموذج الإحسان الرعائي التبرعي إلى مقاربة حقوقية تمكينية تستند للمواثيق الدولية والتشريع الوطني.',
     tags: ['الخدمة الاجتماعية', 'العدالة الاجتماعية', 'حقوق الإنسان', 'التمكين', 'النهوض الاجتماعي'],
-    featuredImage: heroSocialResearch,
+    featuredImage: '/src/assets/images/hero_social_research_1792094339503.jpg',
     citations: [
       'الاتحاد الدولي للأخصائيين الاجتماعيين (IFSW)، التعريف العالمي للخدمة الاجتماعية، ملبورن، 2014.',
       'الأمر عدد 304 لسنة 2013 المتعلق بالنظام الأساسي للأخصائيين الاجتماعيين بتونس.',
@@ -94,7 +89,7 @@ export const initialArticles: Article[] = [
     readTime: '11 دقيقة قراءة',
     excerpt: 'تحليل سوسيولوجي لفاعلية آليات البحث الميداني والتقاطع الآلي في القانون الأساسي عدد 10 لسنة 2019 وانعكاساتها على العدالة التوزيعية للمساعدات الاجتماعية.',
     tags: ['الأمان الاجتماعي', 'الفقر متعدد الأبعاد', 'التقاطع البياني', 'البحث الاجتماعي', 'العدالة التوزيعية'],
-    featuredImage: elderlyCareConsultation,
+    featuredImage: '/src/assets/images/elderly_care_consultation_1792094339861.jpg',
     citations: [
       'القانون الأساسي عدد 10 لسنة 2019 المؤرخ في 30 جانفي 2019 المتعلق بإحداث برنامج الأمان الاجتماعي.',
       'الأمر الحكومي عدد 317 لسنة 2020 المنظم لشروط الانتفاع.',
@@ -124,7 +119,7 @@ export const initialArticles: Article[] = [
     readTime: '8 دقائق قراءة',
     excerpt: 'دليل عملي تحليلي في ضوابط تحرير التقارير الاجتماعية الموجهة للقضاء والإدارة، وضمان التوازن بين واجب الإشعار وجريمة إفشاء السر المهني.',
     tags: ['التقرير الاجتماعي', 'السر المهني', 'الفصل 254', 'قاضي الأسرة', 'حماية المعطيات'],
-    featuredImage: heroSocialResearch,
+    featuredImage: '/src/assets/images/hero_social_research_1792094339503.jpg',
     citations: [
       'الفصل 254 من المجلة الجزائية التونسية.',
       'القانون الأساسي عدد 63 لسنة 2004 المتعلق بحماية المعطيات الشخصية.',
